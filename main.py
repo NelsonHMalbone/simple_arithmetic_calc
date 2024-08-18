@@ -27,13 +27,17 @@ numb2 = float(input("Enter Second number: "))
 # inside we placed a result var for the results of each operator
 if operator == "+":
     result = numb1 + numb2
+    print(result)
 elif operator == "-":
     result = numb1 - numb2
+    print(result)
 elif operator == "*":
     result = numb1 * numb2
+    print(result)
 elif operator == "/":
     result = numb1 / numb2
+    print(result)
 else:
     print("please use one of the following operators + - * /")
 
-print(result)
+
