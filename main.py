@@ -17,3 +17,23 @@ operator = input("Enter a operator (+ - * /): ")
 
 # test print with just
 # num1 + num2
+numb1 = float(input("Enter First number: "))
+numb2 = float(input("Enter Second number: "))
+
+# print(numb1 + numb2)
+# this was for a test
+
+# using if statements to check weather user is using different operators
+# inside we placed a result var for the results of each operator
+if operator == "+":
+    result = numb1 + numb2
+elif operator == "-":
+    result = numb1 - numb2
+elif operator == "*":
+    result = numb1 * numb2
+elif operator == "/":
+    result = numb1 / numb2
+else:
+    print("please use one of the following operators + - * /")
+
+print(result)
