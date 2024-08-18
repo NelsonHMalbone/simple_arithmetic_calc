@@ -37,7 +37,6 @@ elif operator == "*":
 elif operator == "/":
     result = numb1 / numb2
     print(result)
-else:
-    print("please use one of the following operators + - * /")
+
 
 
