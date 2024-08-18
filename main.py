@@ -38,7 +38,7 @@ elif operator == "/":
     result = numb1 / numb2
     print(round(result, 3))
 else:
-    print(f"{operator} is not vaild operator")
+    print(f"{operator} is not a vaild operator")
 
 # using a round function will give a whole number instead of a very long number
 # if you want certain numbers after whole number , #
