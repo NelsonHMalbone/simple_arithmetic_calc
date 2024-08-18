@@ -27,16 +27,18 @@ numb2 = float(input("Enter Second number: "))
 # inside we placed a result var for the results of each operator
 if operator == "+":
     result = numb1 + numb2
-    print(round(result))
+    print(round(result, 3))
 elif operator == "-":
     result = numb1 - numb2
-    print(round(result))
+    print(round(result, 3))
 elif operator == "*":
     result = numb1 * numb2
-    print(round(result))
+    print(round(result, 3))
 elif operator == "/":
     result = numb1 / numb2
-    print(round(result))
+    print(round(result, 3))
 
 # using a round function will give a whole number instead of a very long number
+# if you want certain numbers after whole number , #
+# so instead of 5 it will be 5.123
 
